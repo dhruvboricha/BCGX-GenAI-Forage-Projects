@@ -1,0 +1,25 @@
+AI-Driven Financial Chatbot Prototype
+
+Overview
+This project involves the development of a 'Rule-Based Financial Chatbot' designed to provide users with quick and accurate financial insights based on predefined queries. The chatbot leverages structured financial data from 10-K filings for companies like Microsoft, Tesla, and Apple.
+
+Functionality
+- Responds to 15 predefined financial queries related to revenue, net income, assets, liabilities, and cash flows.
+- Allows users to select a company and fiscal year (2021, 2022, 2023) for which they wish to retrieve financial information.
+- Provides concise and accurate responses based on analyzed data.
+
+Supported Queries
+The chatbot can answer queries such as:
+- Total Revenue
+- Net Income
+- Total Assets
+- Total Liabilities
+- Cash Flow from Operating Activities
+- Growth percentages for revenue, net income, assets, liabilities, and cash flows
+- Year-by-year average growth rates for each metric
+
+Limitations
+- Only supports data from Microsoft, Tesla, and Apple.
+- Only for fiscal years 2021–2023.
+- Only predefined queries are supported (no open-ended conversations).
+- Requires CSV files (`final_financial_data_report.csv` and `Summary_financial_report.csv`) to be present.
